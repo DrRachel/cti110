@@ -1,0 +1,22 @@
+# CTI-110 
+# P3T1 - Areas of Rectangle
+# Rachel
+# 3/11/2018
+
+# Getting the dimensions of the rectangles.
+recL1 = float(input ("What is the length of the first rectangle?:  "))
+recW1 = float(input ("What is the width of the first rectangle?:  "))
+recL2 = float(input ("What is the length of the second rectangle?:  "))
+recW2 = float(input ("What is the width of the second rectangle?:  "))
+
+# Calculating the area of rectangles
+area1 = recL1 * recW1
+area2 = recL2 * recW2
+
+# Which was what?!
+if area1 > area2:
+        print ('Rectangle 1 has the greater area! ')
+elif area2 > area1:
+        print ('Rectangle 2 has the greater area! ')
+else:
+        print ('Both have the same area. ')
